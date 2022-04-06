@@ -1,0 +1,53 @@
+.card {
+    margin-top: 10px;
+    border: none;
+    width:400px;
+    height: 380px;
+    padding: 40px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: hsla(205, 46%, 30%, 1);
+    opacity: 0.6;
+    background: linear-gradient(90deg,hsla(205, 46%, 30%, 1) 0%, hsla(270, 26%, 36%, 1) 100%);
+}
+.card label h1, h6{
+    color:#fff;
+}
+
+label{
+    color: #fff;
+}
+.text-center{
+    text-align: center;
+    color: #fff;
+}
+.mb-3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+form{
+    font-size: 20px;
+}
+.form-control{
+    width: 400px;
+    height:30px;
+    font-size: medium;
+}
+.btn-primary{
+    width: 100px;
+    height: 40px;
+    font-size: medium;
+    margin-left: 150px;
+}
+img{
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    
+}
+.form-text{
+    margin-bottom: -15px;
+    color:khaki;
+}

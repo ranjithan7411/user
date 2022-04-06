@@ -1,0 +1,22 @@
+<body>
+    <div *ngIf="isVisible">
+    <img src="https://cdn.pixabay.com/photo/2022/03/23/21/27/road-7087957_960_720.jpg" alt="">
+   
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            
+            <div class="card">
+                <div class="text-center">
+                    <h1>Login</h1>
+                    <h2>Are you an admin or user?</h2>
+                </div>
+                <form>
+                    <button type="submit"  (click)="changeView()" class="btn btn-primary"  routerLink="admin">Admin</button>
+                    <button type="submit"  (click)="changeView()" class="btn btn-primary" routerLink="user">User</button>
+                </form>
+               </div> 
+        </div>
+    </div>
+</div>
+</div></body>

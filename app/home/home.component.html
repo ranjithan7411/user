@@ -1,0 +1,33 @@
+<html>
+    <head> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <style>
+            .mySlides {display:none;}
+            </style>
+            
+    </head>
+    <body>
+    <div id="navbar">
+        
+    <ul>
+        
+        
+        <li><a (click)="changeView()" [routerLink]="['/viewstudent']">View Student</a></li>
+        <li><a (click)="changeView()" [routerLink]="['/addstudent']">New Student</a></li>
+        <li><a (click)="changeView()" [routerLink]="['/updatestudent']">Update Student</a></li>
+        <li><a (click)="changeView()" [routerLink]="['/deletestudent']">Delete Student</a></li>
+        <li><a (click)="changeView()" [routerLink]="['/viewemp']">View Employee</a></li>
+        <li><a (click)="changeView()" [routerLink]="['/addemp']">New employee</a></li>
+        <li><a (click)="changeView()" [routerLink]="['/updateemp']">Update Employee</a></li>
+        <li><a (click)="changeView()" [routerLink]="['/deleteemp']">Delete Employee</a></li>
+        <li><button (click)="changeView()" [routerLink]="['/login'] "> Logout</button></li>
+    </ul>
+</div>
+<div>
+    
+<div *ngIf="imgVisible"  src="" >
+    </div>
+
+  </div>
+</body>
+</html>

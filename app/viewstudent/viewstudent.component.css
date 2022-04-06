@@ -1,0 +1,38 @@
+
+table{
+    border: 2px solid black;
+    padding: 10px;
+    margin-left: 390px;
+    position: absolute;
+    margin-top: 200px;
+    justify-content: center;
+    background-color: rgb(49, 42, 42);;
+
+}
+td, th{
+    border: 1px solid pink;
+    font-size: 1.5em;
+    padding: 7px;
+    color: rgb(234, 238, 243);
+}
+body{
+    background-color: aquamarine;
+    background-image: url(https://cdn.pixabay.com/photo/2022/01/19/05/28/flowers-6948806_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100vw;
+    height:100vh;
+}
+ button{
+     position: absolute;
+     margin-top: 475px;
+     margin-left:700px;
+     width:150px;
+     height:30px;
+     font-size: 18px ;
+ }
+ button:hover{
+     background-color: blue;
+     color: aliceblue;
+     border-radius: 10px;
+ }

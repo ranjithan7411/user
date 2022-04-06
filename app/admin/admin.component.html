@@ -1,0 +1,21 @@
+
+<div class="form" *ngIf="isVisible"> 
+    <div class="card">
+    <h1>Admin Login</h1>
+    <form action=""   >
+        
+        <label for="id" class="label">Username <b>: </b></label><br>
+        <input type="tel" class = "text" name="id" id="empid" size="10"><br><br>
+        <label for="code" class="label">Password <b>: </b></label><br>
+        <input type="tel" name="code" class ="text" id="code" size="10" ><br>
+    
+        <input type="button" class="submit" value="submit" id="btn" (click)="changeView()"  [routerLink]="['/home/']" ><br><br>
+
+      
+        <a href="./login.component.html" target="" rel="noopener noreferrer">Back</a>
+        
+            
+    </form>
+    </div>
+    </div>
+    
